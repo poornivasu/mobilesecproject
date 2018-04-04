@@ -1,0 +1,687 @@
+Product name: AppiumStudio
+Appdir path: /Users/poorni/appiumstudio
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/Applications/AppiumStudio/lib/manager-client-11.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/Applications/AppiumStudio/lib/slf4j-log4j12-1.7.21.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.SimpleLoggerFactory]
+Starting the internal [HTTP/1.1] server on port 4723
+2018-04-03 13:10:58,330 [AWT-EventQueue-0] (imagestudio.ImageStudioApp) ERROR	Cannot hide splash screen
+com.install4j.api.launcher.SplashScreen$ConnectionException: no splash screen available
+	at com.install4j.api.launcher.SplashScreen.hide(SplashScreen.java:44)
+	at imagestudio.ImageStudioApp.iN(MyApplication:306)
+	at imagestudio.ImageStudioApp.startup(MyApplication:268)
+	at org.jdesktop.application.Application$1.run(Application.java:171)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+add: /data/app/com.google.android.youtube-1/base.apk=com.google.android.youtube
+add: /data/app/com.google.android.apps.docs.editors.docs-1/base.apk=com.google.android.apps.docs.editors.docs
+add: /data/app/com.google.android.apps.docs.editors.sheets-1/base.apk=com.google.android.apps.docs.editors.sheets
+add: /data/app/com.google.android.apps.docs.editors.slides-1/base.apk=com.google.android.apps.docs.editors.slides
+add: /data/app/com.google.android.apps.messaging-1/base.apk=com.google.android.apps.messaging
+add: /data/app/com.google.android.apps.genie.geniewidget-1/base.apk=com.google.android.apps.genie.geniewidget
+add: /data/app/com.experitest.simplebrowser.test-1/base.apk=com.experitest.simplebrowser.test
+add: /data/app/com.android.vending-1/base.apk=com.android.vending
+add: /data/app/com.cnn.mobile.android.phone-1/base.apk=com.cnn.mobile.android.phone
+add: /data/app/com.google.android.marvin.talkback-1/base.apk=com.google.android.marvin.talkback
+add: /data/app/com.experitest.uiautomator.test-1/base.apk=com.experitest.uiautomator.test
+add: /data/app/com.google.android.apps.inputmethod.hindi-1/base.apk=com.google.android.apps.inputmethod.hindi
+add: /data/app/com.google.android.launcher-1/base.apk=com.google.android.launcher
+add: /data/app/com.google.android.deskclock-1/base.apk=com.google.android.deskclock
+add: /data/app/com.google.android.gm-1/base.apk=com.google.android.gm
+add: /data/app/com.google.android.instantapps.supervisor-1/base.apk=com.google.android.instantapps.supervisor
+add: /data/app/com.google.android.music-1/base.apk=com.google.android.music
+add: /data/app/com.google.android.dialer-1/base.apk=com.google.android.dialer
+add: /data/app/com.google.android.apps.cloudprint-1/base.apk=com.google.android.apps.cloudprint
+add: /data/app/com.google.android.apps.docs-1/base.apk=com.google.android.apps.docs
+add: /data/app/com.google.android.apps.maps-1/base.apk=com.google.android.apps.maps
+add: /data/app/com.google.android.apps.plus-1/base.apk=com.google.android.apps.plus
+add: /data/app/com.google.android.webview-1/base.apk=com.google.android.webview
+add: /data/app/com.google.android.contacts-1/base.apk=com.google.android.contacts
+add: /data/app/com.google.android.apps.fitness-1/base.apk=com.google.android.apps.fitness
+add: /data/app/com.google.android.gm.exchange-1/base.apk=com.google.android.gm.exchange
+add: /data/app/com.google.android.calculator-1/base.apk=com.google.android.calculator
+add: /data/app/com.android.chrome-1/base.apk=com.android.chrome
+add: /data/app/com.google.android.gms-1/base.apk=com.google.android.gms
+add: /data/app/com.google.android.tts-1/base.apk=com.google.android.tts
+add: /data/app/com.google.android.videos-1/base.apk=com.google.android.videos
+add: /data/app/com.google.android.apps.photos-1/base.apk=com.google.android.apps.photos
+add: /data/app/com.google.android.calendar-1/base.apk=com.google.android.calendar
+add: /data/app/com.google.android.apps.youtube.kids-1/base.apk=com.google.android.apps.youtube.kids
+add: /data/app/org.mozilla.firefox-1/base.apk=org.mozilla.firefox
+add: /data/app/com.google.android.apps.books-1/base.apk=com.google.android.apps.books
+add: /data/app/com.google.android.keep-1/base.apk=com.google.android.keep
+add: /data/app/com.google.android.talk-1/base.apk=com.google.android.talk
+add: /data/app/com.google.android.play.games-1/base.apk=com.google.android.play.games
+add: /data/app/com.google.android.apps.magazines-1/base.apk=com.google.android.apps.magazines
+add: /data/app/com.google.android.apps.gcs-1/base.apk=com.google.android.apps.gcs
+add: /data/app/com.google.android.GoogleCamera-1/base.apk=com.google.android.GoogleCamera
+add: /data/app/com.google.android.inputmethod.latin-1/base.apk=com.google.android.inputmethod.latin
+2018-04-03 13:19:19,712 [ScreenReader thread adb:Nexus 5] (device.android.V) ERROR	Stop reader thread null
+2018-04-03 13:19:19,726 [pool-10-thread-1] (screen.injector.n) ERROR	Unable to identify device with SN: 03ab1c13003c0097. Device probably turned offline
+2018-04-03 13:19:20,041 [BackgroundTask-9--03ab1c13003c0097[RUNNING]#2] (a.a.b) ERROR	minicap's config-server (/127.0.0.1:49931) failed with error code=E_UNHANDLED_ERROR(-1) without returning a descriptive message
+2018-04-03 13:19:20,044 [BackgroundTask-9--03ab1c13003c0097[RUNNING]#2] (a.a.b) ERROR	Request for a JPEG resulted in E_UNHANDLED_ERROR(-1)
+2018-04-03 13:19:20,047 [BackgroundTask-9--03ab1c13003c0097[RUNNING]#2] (a.a.b) ERROR	Failed to connect to localhost:/127.0.0.1:49931 3 times in row
+2018-04-03 13:19:20,047 [BackgroundTask-9--03ab1c13003c0097[RUNNING]#2] (a.a.b) ERROR	Failed to connect to localhost:/127.0.0.1:49931 3 times in row
+2018-04-03 13:19:20,058 [BackgroundTask-7--closeServerSocket for#03ab1c13003c0097] (a.a.b) ERROR	Failed to connect to localhost:/127.0.0.1:49931 3 times in row
+2018-04-03 13:19:20,058 [BackgroundTask-7--closeServerSocket for#03ab1c13003c0097] (a.a.b) ERROR	Failed to connect to localhost:/127.0.0.1:49931 3 times in row
+2018-04-03 13:19:20,058 [BackgroundTask-7--closeServerSocket for#03ab1c13003c0097] (a.a.b) ERROR	Failed to connect to localhost:/127.0.0.1:49931 3 times in row
+2018-04-03 13:19:20,061 [BackgroundTask-7--onStop(03ab1c13003c0097#1(pid=26103),Created@13:13:47.422)] (screen.injector.n) ERROR	Unable to identify device with SN: 03ab1c13003c0097. Device probably turned offline
+2018-04-03 13:19:20,062 [BackgroundTask-7--onStop(03ab1c13003c0097#1(pid=26103),Created@13:13:47.422)] (screen.injector.n) ERROR	Could not get or create minicap for device#03ab1c13003c0097 to fulfill an operation
+2018-04-03 13:19:20,063 [BackgroundTask-7--onStop(03ab1c13003c0097#1(pid=26103),Created@13:13:47.422)] (a.a.b) ERROR	onStop(03ab1c13003c0097) has failed
+com.experitest.image.agent.InternalException: Could not get or create minicap for device#03ab1c13003c0097 to fulfill an operation
+	at com.experitest.image.agent.android.adb.screen.injector.n.a(MyApplication:190)
+	at com.experitest.image.agent.android.adb.screen.injector.n.X(MyApplication:127)
+	at com.experitest.image.agent.android.adb.screen.injector.o.aK(MyApplication:97)
+	at com.experitest.device.android.a.a.b.a(MyApplication:437)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+	at com.experitest.device.android.a.a.b.bs(MyApplication:620)
+	at com.experitest.utils.a.e.innerRun(MyApplication:102)
+	at com.experitest.utils.a.j.run(MyApplication:21)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Could not get or create minicap for device#03ab1c13003c0097 to fulfill an operation
+	... 13 more
+2018-04-03 18:33:31,775 [pool-10-thread-1] (device.android.L) ERROR	automator failed - socket failed 
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:291)
+	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:295)
+	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141)
+	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:254)
+	at com.experitest.device.android.L.b(MyApplication:1000)
+	at com.experitest.device.android.L.a(MyApplication:942)
+	at com.experitest.device.android.P.v(MyApplication:295)
+	at com.experitest.image.agent.android.adb.screen.injector.D.v(MyApplication:577)
+	at com.experitest.image.agent.android.adb.screen.injector.b.v(MyApplication:220)
+	at com.experitest.image.agent.android.adb.screen.injector.b.a(MyApplication:78)
+	at com.experitest.device.ar.W(MyApplication:1328)
+	at com.experitest.device.ar.A(MyApplication:1188)
+	at com.experitest.device.ar.a(MyApplication:401)
+	at com.experitest.device.d.j.a(MyApplication:942)
+	at com.experitest.device.d.a.b(MyApplication:280)
+	at com.experitest.device.d.e.run(MyApplication:444)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Dyanamic: true
+Device: adb:Nexus 5
+Application: com.cnn.mobile.android.phone/.features.splash.SplashActivity
+URL: null
+Is Continue: false
+Instrumented: false
+Outsid app: false
+
+Dyanamic: true
+Device: adb:Nexus 5
+Application: com.cnn.mobile.android.phone/.features.splash.SplashActivity
+URL: null
+Is Continue: false
+Instrumented: false
+Outsid app: false
+
+Get all records
+Get all records
+Get all records
+Get all records
+Get all records
+Get all records
+Get all records
+Get all records
+Get all records
+Get all records
+Get all records
+Get all records
+Get all records
+Get all records
+2018-04-03 19:22:24,132 [AutomatorWatchDog - de74a1a8-bbf8-4274-9d3a-ef7bdf263b1e for 03ab1c13003c0097] (device.android.L) ERROR	automator failed - socket failed 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.io.BufferedReader.readLine(BufferedReader.java:324)
+	at java.io.BufferedReader.readLine(BufferedReader.java:389)
+	at com.experitest.device.android.L.b(MyApplication:1004)
+	at com.experitest.device.android.L.a(MyApplication:942)
+	at com.experitest.device.android.L.l(MyApplication:1457)
+	at com.experitest.device.android.N.run(MyApplication:280)
+2018-04-03 20:02:34,635 [Restlet-979432587] (appium.b.f) ERROR	No device with the following information was found: //device[(@os='ios' and (@version='10.3' or starts-with(@version, '10.3.'))) and not(@emulator='true') ] Lock Device by query: @os='ios' and @version='10.3' 
+2018-04-03 20:02:50,823 [Restlet-979432587] (appium.b.f) ERROR	No device with the following information was found: //device[(@os='ios' and (@version='10.3' or starts-with(@version, '10.3.'))) and not(@emulator='true') ] Lock Device by query: @os='ios' and @version='10.3' 
+2018-04-03 20:03:04,108 [Restlet-979432587] (appium.b.f) ERROR	No device with the following information was found: //device[(@os='android' and (@version='4.2' or starts-with(@version, '4.2.'))) and not(@emulator='true') ] Lock Device by query: @os='android' and @version='4.2' 
+2018-04-03 20:03:04,175 [Restlet-979432587] (appium.b.f) ERROR	No device with the following information was found: //device[(@os='android' and (@version='4.2' or starts-with(@version, '4.2.'))) and not(@emulator='true') ] Lock Device by query: @os='android' and @version='4.2' 
+2018-04-03 20:03:04,424 [Restlet-979432587] (appium.b.f) ERROR	No device with the following information was found: //device[(@os='android' and (@version='4.2' or starts-with(@version, '4.2.'))) and not(@emulator='true') ] Lock Device by query: @os='android' and @version='4.2' 
+2018-04-03 20:03:04,452 [Restlet-979432587] (appium.b.f) ERROR	No device with the following information was found: //device[(@os='android' and (@version='4.2' or starts-with(@version, '4.2.'))) and not(@emulator='true') ] Lock Device by query: @os='android' and @version='4.2' 
+2018-04-03 20:03:04,487 [Restlet-979432587] (appium.b.f) ERROR	No device with the following information was found: //device[(@os='android' and (@version='4.2' or starts-with(@version, '4.2.'))) and not(@emulator='true') ] Lock Device by query: @os='android' and @version='4.2' 
+2018-04-03 20:04:47,433 [Restlet-161297802] (appium.b.f) ERROR	No device with the following information was found: //device[(@os='ios' and (@version='7.1' or starts-with(@version, '7.1.'))) and not(@emulator='true') ] Lock Device by query: @os='ios' and @version='7.1' 
+2018-04-03 20:06:57,639 [Restlet-161297802] (appium.b.f) ERROR	No device with the following information was found: //device[(@os='android' and (@version='4.2' or starts-with(@version, '4.2.'))) and not(@emulator='true') ] Lock Device by query: @os='android' and @version='4.2' 
+2018-04-03 20:06:57,688 [Restlet-161297802] (appium.b.f) ERROR	No device with the following information was found: //device[(@os='android' and (@version='4.2' or starts-with(@version, '4.2.'))) and not(@emulator='true') ] Lock Device by query: @os='android' and @version='4.2' 
+2018-04-03 20:06:57,731 [Restlet-161297802] (appium.b.f) ERROR	No device with the following information was found: //device[(@os='android' and (@version='4.2' or starts-with(@version, '4.2.'))) and not(@emulator='true') ] Lock Device by query: @os='android' and @version='4.2' 
+2018-04-03 20:06:57,933 [Restlet-161297802] (appium.b.f) ERROR	No device with the following information was found: //device[(@os='android' and (@version='4.2' or starts-with(@version, '4.2.'))) and not(@emulator='true') ] Lock Device by query: @os='android' and @version='4.2' 
+2018-04-03 20:06:57,958 [Restlet-161297802] (appium.b.f) ERROR	No device with the following information was found: //device[(@os='android' and (@version='4.2' or starts-with(@version, '4.2.'))) and not(@emulator='true') ] Lock Device by query: @os='android' and @version='4.2' 
+2018-04-03 20:07:11,301 [Restlet-161297802] (appium.b.f) ERROR	No device with the following information was found: //device[(@os='android' and (@version='4.2' or starts-with(@version, '4.2.'))) and not(@emulator='true') ] Lock Device by query: @os='android' and @version='4.2' 
+2018-04-03 20:07:11,375 [Restlet-161297802] (appium.b.f) ERROR	No device with the following information was found: //device[(@os='android' and (@version='4.2' or starts-with(@version, '4.2.'))) and not(@emulator='true') ] Lock Device by query: @os='android' and @version='4.2' 
+2018-04-03 20:07:11,418 [Restlet-161297802] (appium.b.f) ERROR	No device with the following information was found: //device[(@os='android' and (@version='4.2' or starts-with(@version, '4.2.'))) and not(@emulator='true') ] Lock Device by query: @os='android' and @version='4.2' 
+2018-04-03 20:07:11,441 [Restlet-161297802] (appium.b.f) ERROR	No device with the following information was found: //device[(@os='android' and (@version='4.2' or starts-with(@version, '4.2.'))) and not(@emulator='true') ] Lock Device by query: @os='android' and @version='4.2' 
+2018-04-03 20:07:11,524 [Restlet-161297802] (appium.b.f) ERROR	No device with the following information was found: //device[(@os='android' and (@version='4.2' or starts-with(@version, '4.2.'))) and not(@emulator='true') ] Lock Device by query: @os='android' and @version='4.2' 
+2018-04-03 20:07:57,586 [Restlet-161297802] (appium.b.f) ERROR	No device with the following information was found: //device[(@os='android' and (@version='4.2' or starts-with(@version, '4.2.'))) and not(@emulator='true') ] Lock Device by query: @os='android' and @version='4.2' 
+2018-04-03 20:07:57,652 [Restlet-979432587] (appium.b.f) ERROR	No device with the following information was found: //device[(@os='android' and (@version='4.2' or starts-with(@version, '4.2.'))) and not(@emulator='true') ] Lock Device by query: @os='android' and @version='4.2' 
+2018-04-03 20:07:57,697 [Restlet-979432587] (appium.b.f) ERROR	No device with the following information was found: //device[(@os='android' and (@version='4.2' or starts-with(@version, '4.2.'))) and not(@emulator='true') ] Lock Device by query: @os='android' and @version='4.2' 
+2018-04-03 20:07:57,739 [Restlet-979432587] (appium.b.f) ERROR	No device with the following information was found: //device[(@os='android' and (@version='4.2' or starts-with(@version, '4.2.'))) and not(@emulator='true') ] Lock Device by query: @os='android' and @version='4.2' 
+2018-04-03 20:07:57,780 [Restlet-979432587] (appium.b.f) ERROR	No device with the following information was found: //device[(@os='android' and (@version='4.2' or starts-with(@version, '4.2.'))) and not(@emulator='true') ] Lock Device by query: @os='android' and @version='4.2' 
+2018-04-03 20:10:55,503 [Restlet-161297802] (appium.b.f) ERROR	No device with the following information was found: //device[(@os='android' and (@version='4.2' or starts-with(@version, '4.2.'))) and not(@emulator='true') ] Lock Device by query: @os='android' and @version='4.2' 
+2018-04-03 20:11:08,987 [AutomatorWatchDog - de74a1a8-bbf8-4274-9d3a-ef7bdf263b1e for 03ab1c13003c0097] (device.android.L) ERROR	automator failed - socket failed 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.io.BufferedReader.readLine(BufferedReader.java:324)
+	at java.io.BufferedReader.readLine(BufferedReader.java:389)
+	at com.experitest.device.android.L.b(MyApplication:1004)
+	at com.experitest.device.android.L.a(MyApplication:942)
+	at com.experitest.device.android.L.l(MyApplication:1457)
+	at com.experitest.device.android.N.run(MyApplication:280)
+2018-04-03 20:19:18,610 [Restlet-161297802] (appium.b.f) ERROR	No device with the following information was found: //device[(@os='ios' and (@version='7.1' or starts-with(@version, '7.1.'))) and not(@emulator='true') ] Lock Device by query: @os='ios' and @version='7.1' 
+2018-04-03 20:27:18,540 [Restlet-161297802] (appium.b.f) ERROR	No device with the following information was found: //device[(@os='android' and (@version='4.2' or starts-with(@version, '4.2.'))) and not(@emulator='true') ] Lock Device by query: @os='android' and @version='4.2' 
+2018-04-03 20:29:40,551 [Restlet-161297802] (appium.b.f) ERROR	No device with the following information was found: //device[(@os='android' and (@version='4.2' or starts-with(@version, '4.2.'))) and not(@emulator='true') ] Lock Device by query: @os='android' and @version='4.2' 
+2018-04-03 20:30:11,886 [Restlet-161297802] (appium.b.f) ERROR	No device with the following information was found: //device[(@os='android' and (@version='4.2' or starts-with(@version, '4.2.'))) and not(@emulator='true') ] Lock Device by query: @os='android' and @version='4.2' 
+2018-04-03 20:30:28,643 [Restlet-161297802] (appium.b.f) ERROR	No device with the following information was found: //device[(@os='android' and (@version='4.2' or starts-with(@version, '4.2.'))) and not(@emulator='true') ] Lock Device by query: @os='android' and @version='4.2' 
+2018-04-03 20:30:28,670 [Restlet-161297802] (appium.b.f) ERROR	No device with the following information was found: //device[(@os='android' and (@version='4.2' or starts-with(@version, '4.2.'))) and not(@emulator='true') ] Lock Device by query: @os='android' and @version='4.2' 
+2018-04-03 20:30:28,811 [Restlet-161297802] (appium.b.f) ERROR	No device with the following information was found: //device[(@os='android' and (@version='4.2' or starts-with(@version, '4.2.'))) and not(@emulator='true') ] Lock Device by query: @os='android' and @version='4.2' 
+2018-04-03 20:30:28,829 [Restlet-161297802] (appium.b.f) ERROR	No device with the following information was found: //device[(@os='android' and (@version='4.2' or starts-with(@version, '4.2.'))) and not(@emulator='true') ] Lock Device by query: @os='android' and @version='4.2' 
+2018-04-03 20:30:28,845 [Restlet-161297802] (appium.b.f) ERROR	No device with the following information was found: //device[(@os='android' and (@version='4.2' or starts-with(@version, '4.2.'))) and not(@emulator='true') ] Lock Device by query: @os='android' and @version='4.2' 
+2018-04-03 20:30:45,132 [Restlet-161297802] (appium.b.f) ERROR	No device with the following information was found: //device[(@os='android' and (@version='4.2' or starts-with(@version, '4.2.'))) and not(@emulator='true') ] Lock Device by query: @os='android' and @version='4.2' 
+2018-04-03 20:30:45,167 [Restlet-161297802] (appium.b.f) ERROR	No device with the following information was found: //device[(@os='android' and (@version='4.2' or starts-with(@version, '4.2.'))) and not(@emulator='true') ] Lock Device by query: @os='android' and @version='4.2' 
+2018-04-03 20:30:45,199 [Restlet-161297802] (appium.b.f) ERROR	No device with the following information was found: //device[(@os='android' and (@version='4.2' or starts-with(@version, '4.2.'))) and not(@emulator='true') ] Lock Device by query: @os='android' and @version='4.2' 
+2018-04-03 20:30:45,230 [Restlet-161297802] (appium.b.f) ERROR	No device with the following information was found: //device[(@os='android' and (@version='4.2' or starts-with(@version, '4.2.'))) and not(@emulator='true') ] Lock Device by query: @os='android' and @version='4.2' 
+2018-04-03 20:30:45,254 [Restlet-161297802] (appium.b.f) ERROR	No device with the following information was found: //device[(@os='android' and (@version='4.2' or starts-with(@version, '4.2.'))) and not(@emulator='true') ] Lock Device by query: @os='android' and @version='4.2' 
+2018-04-03 20:31:07,126 [Restlet-161297802] (appium.b.f) ERROR	No device with the following information was found: //device[(@os='android' and (@version='4.2' or starts-with(@version, '4.2.'))) and not(@emulator='true') ] Lock Device by query: @os='android' and @version='4.2' 
+2018-04-03 20:31:17,330 [Restlet-161297802] (appium.b.f) ERROR	No device with the following information was found: //device[(@os='android' and (@version='4.2' or starts-with(@version, '4.2.'))) and not(@emulator='true') ] Lock Device by query: @os='android' and @version='4.2' 
+2018-04-03 20:51:50,622 [Restlet-161297802] (appium.b.f) ERROR	Failed to find a device Lock Device by query: @serialnumber='03ab1c13003c0097' . Device may not be available if previous session did not end properly using the quit command in such case please wait 60 [seconds] before trying to use the device again
+2018-04-03 20:51:52,864 [Restlet-161297802] (appium.b.f) ERROR	Failed to find a device Lock Device by query: @serialnumber='03ab1c13003c0097' . Device may not be available if previous session did not end properly using the quit command in such case please wait 60 [seconds] before trying to use the device again
+2018-04-03 20:51:56,369 [Restlet-161297802] (appium.b.f) ERROR	Failed to find a device Lock Device by query: @serialnumber='03ab1c13003c0097' . Device may not be available if previous session did not end properly using the quit command in such case please wait 60 [seconds] before trying to use the device again
+2018-04-03 20:52:08,011 [Restlet-161297802] (appium.b.f) ERROR	Failed to find a device Lock Device by query: @serialnumber='03ab1c13003c0097' . Device may not be available if previous session did not end properly using the quit command in such case please wait 60 [seconds] before trying to use the device again
+2018-04-03 20:52:11,347 [Restlet-161297802] (appium.b.f) ERROR	Failed to find a device Lock Device by query: @serialnumber='03ab1c13003c0097' . Device may not be available if previous session did not end properly using the quit command in such case please wait 60 [seconds] before trying to use the device again
+2018-04-03 20:52:13,532 [Restlet-161297802] (appium.b.f) ERROR	Failed to find a device Lock Device by query: @serialnumber='03ab1c13003c0097' . Device may not be available if previous session did not end properly using the quit command in such case please wait 60 [seconds] before trying to use the device again
+2018-04-03 20:52:17,317 [Restlet-161297802] (appium.b.f) ERROR	Failed to find a device Lock Device by query: @serialnumber='03ab1c13003c0097' . Device may not be available if previous session did not end properly using the quit command in such case please wait 60 [seconds] before trying to use the device again
+add: /data/app/com.google.android.youtube-1/base.apk=com.google.android.youtube
+add: /data/app/com.google.android.apps.docs.editors.docs-1/base.apk=com.google.android.apps.docs.editors.docs
+add: /data/app/com.weather.Weather-1/base.apk=com.weather.Weather
+add: /data/app/com.google.android.apps.docs.editors.sheets-1/base.apk=com.google.android.apps.docs.editors.sheets
+add: /data/app/com.google.android.apps.docs.editors.slides-1/base.apk=com.google.android.apps.docs.editors.slides
+add: /data/app/com.google.android.apps.messaging-1/base.apk=com.google.android.apps.messaging
+add: /data/app/com.google.android.apps.genie.geniewidget-1/base.apk=com.google.android.apps.genie.geniewidget
+add: /data/app/com.experitest.simplebrowser.test-1/base.apk=com.experitest.simplebrowser.test
+add: /data/app/com.android.vending-1/base.apk=com.android.vending
+add: /data/app/com.cnn.mobile.android.phone-1/base.apk=com.cnn.mobile.android.phone
+add: /data/app/com.google.android.marvin.talkback-1/base.apk=com.google.android.marvin.talkback
+add: /data/app/com.experitest.uiautomator.test-1/base.apk=com.experitest.uiautomator.test
+add: /data/app/com.google.android.apps.inputmethod.hindi-1/base.apk=com.google.android.apps.inputmethod.hindi
+add: /data/app/com.google.android.launcher-1/base.apk=com.google.android.launcher
+add: /data/app/com.google.android.deskclock-1/base.apk=com.google.android.deskclock
+add: /data/app/com.google.android.gm-1/base.apk=com.google.android.gm
+add: /data/app/com.google.android.instantapps.supervisor-1/base.apk=com.google.android.instantapps.supervisor
+add: /data/app/com.google.android.music-1/base.apk=com.google.android.music
+add: /data/app/com.google.android.dialer-1/base.apk=com.google.android.dialer
+add: /data/app/com.google.android.apps.cloudprint-1/base.apk=com.google.android.apps.cloudprint
+add: /data/app/com.google.android.apps.docs-1/base.apk=com.google.android.apps.docs
+add: /data/app/com.google.android.apps.maps-1/base.apk=com.google.android.apps.maps
+add: /data/app/com.google.android.apps.plus-1/base.apk=com.google.android.apps.plus
+add: /data/app/com.google.android.webview-1/base.apk=com.google.android.webview
+add: /data/app/com.google.android.contacts-1/base.apk=com.google.android.contacts
+add: /data/app/com.google.android.apps.fitness-1/base.apk=com.google.android.apps.fitness
+add: /data/app/com.google.android.gm.exchange-1/base.apk=com.google.android.gm.exchange
+add: /data/app/com.google.android.calculator-1/base.apk=com.google.android.calculator
+add: /data/app/com.android.chrome-1/base.apk=com.android.chrome
+add: /data/app/com.surpax.ledflashlight.panel-1/base.apk=com.surpax.ledflashlight.panel
+add: /data/app/com.google.android.gms-1/base.apk=com.google.android.gms
+add: /data/app/com.google.android.tts-1/base.apk=com.google.android.tts
+add: /data/app/com.google.android.videos-1/base.apk=com.google.android.videos
+add: /data/app/com.google.android.apps.photos-1/base.apk=com.google.android.apps.photos
+add: /data/app/com.google.android.calendar-1/base.apk=com.google.android.calendar
+add: /data/app/com.google.android.apps.youtube.kids-1/base.apk=com.google.android.apps.youtube.kids
+add: /data/app/org.mozilla.firefox-1/base.apk=org.mozilla.firefox
+add: /data/app/com.google.android.apps.books-1/base.apk=com.google.android.apps.books
+add: /data/app/com.google.android.keep-1/base.apk=com.google.android.keep
+add: /data/app/com.google.android.talk-1/base.apk=com.google.android.talk
+add: /data/app/com.google.android.play.games-1/base.apk=com.google.android.play.games
+add: /data/app/com.google.android.apps.magazines-1/base.apk=com.google.android.apps.magazines
+add: /data/app/com.google.android.apps.gcs-1/base.apk=com.google.android.apps.gcs
+add: /data/app/com.google.android.GoogleCamera-1/base.apk=com.google.android.GoogleCamera
+add: /data/app/com.google.android.inputmethod.latin-1/base.apk=com.google.android.inputmethod.latin
+add: /data/app/com.google.android.youtube-1/base.apk=com.google.android.youtube
+add: /data/app/com.google.android.apps.docs.editors.docs-1/base.apk=com.google.android.apps.docs.editors.docs
+add: /data/app/com.weather.Weather-1/base.apk=com.weather.Weather
+add: /data/app/com.google.android.apps.docs.editors.sheets-1/base.apk=com.google.android.apps.docs.editors.sheets
+add: /data/app/com.google.android.apps.docs.editors.slides-1/base.apk=com.google.android.apps.docs.editors.slides
+add: /data/app/com.google.android.apps.messaging-1/base.apk=com.google.android.apps.messaging
+add: /data/app/com.google.android.apps.genie.geniewidget-1/base.apk=com.google.android.apps.genie.geniewidget
+add: /data/app/com.experitest.simplebrowser.test-1/base.apk=com.experitest.simplebrowser.test
+add: /data/app/com.android.vending-1/base.apk=com.android.vending
+add: /data/app/com.cnn.mobile.android.phone-1/base.apk=com.cnn.mobile.android.phone
+add: /data/app/com.google.android.marvin.talkback-1/base.apk=com.google.android.marvin.talkback
+add: /data/app/com.experitest.uiautomator.test-1/base.apk=com.experitest.uiautomator.test
+add: /data/app/com.google.android.apps.inputmethod.hindi-1/base.apk=com.google.android.apps.inputmethod.hindi
+add: /data/app/com.google.android.launcher-1/base.apk=com.google.android.launcher
+add: /data/app/com.google.android.deskclock-1/base.apk=com.google.android.deskclock
+add: /data/app/com.google.android.gm-1/base.apk=com.google.android.gm
+add: /data/app/com.google.android.instantapps.supervisor-1/base.apk=com.google.android.instantapps.supervisor
+add: /data/app/com.google.android.music-1/base.apk=com.google.android.music
+add: /data/app/com.google.android.dialer-1/base.apk=com.google.android.dialer
+add: /data/app/com.google.android.apps.cloudprint-1/base.apk=com.google.android.apps.cloudprint
+add: /data/app/com.google.android.apps.docs-1/base.apk=com.google.android.apps.docs
+add: /data/app/com.google.android.apps.maps-1/base.apk=com.google.android.apps.maps
+add: /data/app/com.google.android.apps.plus-1/base.apk=com.google.android.apps.plus
+add: /data/app/com.google.android.webview-1/base.apk=com.google.android.webview
+add: /data/app/com.google.android.contacts-1/base.apk=com.google.android.contacts
+add: /data/app/com.google.android.apps.fitness-1/base.apk=com.google.android.apps.fitness
+add: /data/app/com.google.android.gm.exchange-1/base.apk=com.google.android.gm.exchange
+add: /data/app/com.google.android.calculator-1/base.apk=com.google.android.calculator
+add: /data/app/com.android.chrome-1/base.apk=com.android.chrome
+add: /data/app/com.surpax.ledflashlight.panel-1/base.apk=com.surpax.ledflashlight.panel
+add: /data/app/com.google.android.gms-1/base.apk=com.google.android.gms
+add: /data/app/com.google.android.tts-1/base.apk=com.google.android.tts
+add: /data/app/com.google.android.videos-1/base.apk=com.google.android.videos
+add: /data/app/com.google.android.apps.photos-1/base.apk=com.google.android.apps.photos
+add: /data/app/com.google.android.calendar-1/base.apk=com.google.android.calendar
+add: /data/app/com.google.android.apps.youtube.kids-1/base.apk=com.google.android.apps.youtube.kids
+add: /data/app/org.mozilla.firefox-1/base.apk=org.mozilla.firefox
+add: /data/app/com.google.android.apps.books-1/base.apk=com.google.android.apps.books
+add: /data/app/com.google.android.keep-1/base.apk=com.google.android.keep
+add: /data/app/com.google.android.talk-1/base.apk=com.google.android.talk
+add: /data/app/com.google.android.play.games-1/base.apk=com.google.android.play.games
+add: /data/app/com.google.android.apps.magazines-1/base.apk=com.google.android.apps.magazines
+add: /data/app/com.google.android.apps.gcs-1/base.apk=com.google.android.apps.gcs
+add: /data/app/com.google.android.GoogleCamera-1/base.apk=com.google.android.GoogleCamera
+add: /data/app/com.google.android.inputmethod.latin-1/base.apk=com.google.android.inputmethod.latin
+2018-04-03 21:57:28,592 [AWT-EventQueue-0] (imagestudio.ImageStudioApp) ERROR	Thread [Thread[AWT-EventQueue-0,6,main]] got unexpected exception.
+java.lang.NullPointerException
+	at javax.swing.DefaultRowSorter.convertRowIndexToModel(DefaultRowSorter.java:518)
+	at javax.swing.JTable.convertRowIndexToModel(JTable.java:2642)
+	at javax.swing.JTable.getValueAt(JTable.java:2717)
+	at javax.swing.JTable.prepareRenderer(JTable.java:5706)
+	at javax.swing.plaf.basic.BasicTableUI.paintCell(BasicTableUI.java:2114)
+	at javax.swing.plaf.basic.BasicTableUI.paintCells(BasicTableUI.java:2016)
+	at javax.swing.plaf.basic.BasicTableUI.paint(BasicTableUI.java:1812)
+	at javax.swing.plaf.ComponentUI.update(ComponentUI.java:161)
+	at javax.swing.JComponent.paintComponent(JComponent.java:780)
+	at javax.swing.JComponent.paint(JComponent.java:1056)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JViewport.paint(JViewport.java:728)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at imagestudio.app.widget.infra.a.paintChildren(MyApplication:28)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JLayeredPane.paint(JLayeredPane.java:586)
+	at javax.swing.JComponent.paintChildren(JComponent.java:889)
+	at javax.swing.JComponent.paint(JComponent.java:1065)
+	at javax.swing.JComponent.paintToOffscreen(JComponent.java:5210)
+	at javax.swing.RepaintManager$PaintManager.paintDoubleBuffered(RepaintManager.java:1579)
+	at javax.swing.RepaintManager$PaintManager.paint(RepaintManager.java:1502)
+	at javax.swing.RepaintManager.paint(RepaintManager.java:1272)
+	at javax.swing.JComponent._paintImmediately(JComponent.java:5158)
+	at javax.swing.JComponent.paintImmediately(JComponent.java:4969)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:831)
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:814)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:814)
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:789)
+	at javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:738)
+	at javax.swing.RepaintManager.access$1200(RepaintManager.java:64)
+	at javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1732)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:109)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:184)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:229)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:227)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:227)
+	at java.awt.Dialog.show(Dialog.java:1084)
+	at java.awt.Component.show(Component.java:1671)
+	at java.awt.Component.setVisible(Component.java:1623)
+	at java.awt.Window.setVisible(Window.java:1014)
+	at java.awt.Dialog.setVisible(Dialog.java:1005)
+	at imagestudio.hY.setVisible(MyApplication:911)
+	at imagestudio.app.b.q.jj(MyApplication:393)
+	at imagestudio.app.b.q.disposeThenImportFromDevice(MyApplication:387)
+	at imagestudio.app.controller.ApplicationController.disposeThenImportFromDevice(MyApplication:138)
+	at imagestudio.app.f.a.OKButtonActionPerformed(MyApplication:144)
+	at imagestudio.app.f.a.access$300(MyApplication:26)
+	at imagestudio.app.f.e.actionPerformed(MyApplication:118)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6533)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6298)
+	at java.awt.Container.processEvent(Container.java:2236)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2294)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+	at java.awt.Container.dispatchEventImpl(Container.java:2280)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:109)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:184)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:229)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:227)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:227)
+	at java.awt.Dialog.show(Dialog.java:1084)
+	at java.awt.Component.show(Component.java:1671)
+	at java.awt.Component.setVisible(Component.java:1623)
+	at java.awt.Window.setVisible(Window.java:1014)
+	at java.awt.Dialog.setVisible(Dialog.java:1005)
+	at imagestudio.hY.setVisible(MyApplication:911)
+	at imagestudio.app.b.q.jc(MyApplication:170)
+	at imagestudio.app.b.z.importButtonAction(MyApplication:174)
+	at imagestudio.app.b.z.lambda$initEventHandling$2(MyApplication:159)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:289)
+	at java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:289)
+	at java.awt.Component.processMouseEvent(Component.java:6533)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6298)
+	at java.awt.Container.processEvent(Container.java:2236)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2294)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+	at java.awt.Container.dispatchEventImpl(Container.java:2280)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Dyanamic: true
+Device: adb:Nexus 5
+Application: com.surpax.ledflashlight.panel/com.surpax.ledflashlight.FlashlightActivity
+URL: null
+Is Continue: false
+Instrumented: false
+Outsid app: false
+
+Get all records
+Get all records
+Dyanamic: true
+Device: adb:Nexus 5
+Application: com.surpax.ledflashlight.panel/com.surpax.ledflashlight.FlashlightActivity
+URL: null
+Is Continue: false
+Instrumented: false
+Outsid app: false
+
+Get all records
+Get all records
+Get all records
+Get all records
+Get all records
+Get all records
+Get all records
+Dyanamic: true
+Device: adb:Nexus 5
+Application: com.surpax.ledflashlight.panel/com.surpax.ledflashlight.FlashlightActivity
+URL: null
+Is Continue: false
+Instrumented: false
+Outsid app: false
+
+Get all records
+Get all records
+Get all records
+Get all records
+2018-04-03 22:24:07,154 [Action executor - Nexus 5] (image.deviceactions.m) ERROR	Error in listener's doBeforeAction.
+java.lang.NullPointerException
+	at com.experitest.recorder.D.mouseReleased(MyApplication:198)
+	at com.experitest.recorder.R.c(MyApplication:38)
+	at com.experitest.recorder.g.doBeforeAction(MyApplication:61)
+	at com.experitest.image.deviceactions.m.doBeforeAction(MyApplication:144)
+	at com.experitest.image.deviceactions.m.access$600(MyApplication:45)
+	at com.experitest.image.deviceactions.n.gx(MyApplication:282)
+	at com.experitest.image.deviceactions.n.run(MyApplication:260)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Get all records
+Tue Apr 03 22:25:33 EDT 2018 [execute] Agent drop all zones
+Tue Apr 03 22:25:33 EDT 2018 [execute] Start test Untitled
+Tue Apr 03 22:25:33 EDT 2018 [execute] /Users/poorni/appiumstudio-reports/test0
+Tue Apr 03 22:25:34 EDT 2018 [Command executing: setDevice] Set device to: adb:Nexus 5
+Tue Apr 03 22:25:34 EDT 2018 [Command executing: setDevice] Device Information
+Name: Nexus 5
+S/N: 03ab1c13003c0097
+OS: Android
+Manufacture: LGE
+Model: Nexus 5
+Version: 6.0.1
+Screen size: 1080x1920
+Connected to: 127.0.0.1:5037
+
+Tue Apr 03 22:25:35 EDT 2018 [execute] Set property android.native.nonInstrumented to: true
+Tue Apr 03 22:25:35 EDT 2018 [execute] Set property android.native.nonInstrumented to: true
+Tue Apr 03 22:25:42 EDT 2018 [Command executing: launch] Launch native activity / URL com.surpax.ledflashlight.panel/com.surpax.ledflashlight.FlashlightActivity
+Tue Apr 03 22:25:43 EDT 2018 [Command executing: dragCoordinates] Drag from: X1: 561, Y1: 1090, to X2: 561, Y2: 870
+Tue Apr 03 22:25:45 EDT 2018 [Command executing: dragCoordinates] Drag from: X1: 451, Y1: 229, to X2: 616, Y2: 232
+Tue Apr 03 22:25:46 EDT 2018 [Command executing: dragCoordinates] Drag from: X1: 390, Y1: 245, to X2: 674, Y2: 245
+Tue Apr 03 22:25:47 EDT 2018 [Command executing: click] Click 'xpath=//*[@id='bt_settings']' in zone NATIVE, index: 0, click count: 1
+Tue Apr 03 22:25:48 EDT 2018 [Command executing: click] Click 'xpath=//*[@text='Smart Charging']' in zone NATIVE, index: 0, click count: 1
+Tue Apr 03 22:25:50 EDT 2018 [Command executing: click] Click 'xpath=//*[@id='charging_display_settings_switch']' in zone NATIVE, index: 0, click count: 1
+Tue Apr 03 22:25:51 EDT 2018 [Command executing: click] Click 'xpath=//*[@contentDescription='Navigate up']' in zone NATIVE, index: 0, click count: 1
+Tue Apr 03 22:25:51 EDT 2018 [Command executing: waitForElement] Wait for 'xpath=//*[@contentDescription='Navigate up']' in zone NATIVE, timeout: 10000
+Tue Apr 03 22:25:51 EDT 2018 [Command executing: waitForElement] Found: true
+Tue Apr 03 22:25:52 EDT 2018 [Command executing: click] Click 'xpath=//*[@contentDescription='Navigate up']' in zone NATIVE, index: 0, click count: 1
+Tue Apr 03 22:25:54 EDT 2018 [execute] /Users/poorni/appiumstudio-reports/test0
+Dyanamic: true
+Device: adb:Nexus 5
+Application: com.surpax.ledflashlight.panel/com.surpax.ledflashlight.FlashlightActivity
+URL: null
+Is Continue: false
+Instrumented: false
+Outsid app: false
+
+2018-04-03 22:26:48,872 [Action executor - Nexus 5] (device.android.L) ERROR	fail to send key, will retry soon
+2018-04-03 22:26:48,874 [Action executor - Nexus 5] (device.android.L) ERROR	send key timeout
+2018-04-03 22:26:48,874 [Action executor - Nexus 5] (device.android.L) ERROR	
+Dyanamic: true
+Device: adb:Nexus 5
+Application: com.weather.Weather/.app.SplashScreenActivity
+URL: null
+Is Continue: false
+Instrumented: false
+Outsid app: false
+
+Get all records
+Get all records
+Get all records
+Get all records
+Get all records
+Get all records
+Get all records
+Dyanamic: true
+Device: adb:Nexus 5
+Application: com.weather.Weather/.app.SplashScreenActivity
+URL: null
+Is Continue: false
+Instrumented: false
+Outsid app: false
+
+Get all records
+Get all records
+Get all records
+Get all records
+Get all records
+Get all records
+Get all records
+Get all records
+Get all records
+Get all records
+Get all records
+Get all records
+Get all records
+Get all records
+Get all records
+Get all records
+Dyanamic: true
+Device: adb:Nexus 5
+Application: com.weather.Weather/.app.SplashScreenActivity
+URL: null
+Is Continue: false
+Instrumented: false
+Outsid app: false
+
+Dyanamic: true
+Device: adb:Nexus 5
+Application: com.weather.Weather/.app.SplashScreenActivity
+URL: null
+Is Continue: false
+Instrumented: false
+Outsid app: false
+
+Get all records
+Get all records
+Get all records
+Dyanamic: true
+Device: adb:Nexus 5
+Application: com.weather.Weather/.app.SplashScreenActivity
+URL: null
+Is Continue: false
+Instrumented: false
+Outsid app: false
+
+Get all records
+Get all records
+Get all records
+Get all records
+Get all records
+2018-04-03 23:10:31,720 [AutomatorWatchDog - de74a1a8-bbf8-4274-9d3a-ef7bdf263b1e for 03ab1c13003c0097] (device.android.L) ERROR	automator failed - socket failed 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.io.BufferedReader.readLine(BufferedReader.java:324)
+	at java.io.BufferedReader.readLine(BufferedReader.java:389)
+	at com.experitest.device.android.L.b(MyApplication:1004)
+	at com.experitest.device.android.L.a(MyApplication:942)
+	at com.experitest.device.android.L.l(MyApplication:1457)
+	at com.experitest.device.android.N.run(MyApplication:280)
+Tue Apr 03 23:12:11 EDT 2018 [execute] Agent drop all zones
+Tue Apr 03 23:12:11 EDT 2018 [execute] Start test Untitled
+Tue Apr 03 23:12:11 EDT 2018 [execute] /Users/poorni/appiumstudio-reports/test1
+Tue Apr 03 23:12:12 EDT 2018 [Command executing: setDevice] Set device to: adb:Nexus 5
+Tue Apr 03 23:12:12 EDT 2018 [Command executing: setDevice] Device Information
+Name: Nexus 5
+S/N: 03ab1c13003c0097
+OS: Android
+Manufacture: LGE
+Model: Nexus 5
+Version: 6.0.1
+Screen size: 1080x1920
+Connected to: 127.0.0.1:5037
+
+Tue Apr 03 23:12:12 EDT 2018 [execute] Set property android.native.nonInstrumented to: true
+Tue Apr 03 23:12:13 EDT 2018 [execute] Set property android.native.nonInstrumented to: true
+Tue Apr 03 23:12:19 EDT 2018 [Command executing: launch] Launch native activity / URL com.weather.Weather/.app.SplashScreenActivity
+Tue Apr 03 23:12:21 EDT 2018 [Command executing: click] Click 'xpath=//*[@class='android.widget.ImageButton']' in zone NATIVE, index: 0, click count: 1
+Tue Apr 03 23:12:22 EDT 2018 [Command executing: click] Click 'xpath=//*[@text='°F']' in zone NATIVE, index: 0, click count: 1
+Tue Apr 03 23:12:23 EDT 2018 [Command executing: click] Click 'xpath=//*[@id='background_ad_clickable']' in zone NATIVE, index: 0, click count: 1
+Tue Apr 03 23:12:24 EDT 2018 [Command executing: click] Click 'xpath=//*[@id='temperature_icon']' in zone NATIVE, index: 0, click count: 1
+Tue Apr 03 23:12:25 EDT 2018 [Command executing: click] Click 'xpath=//*[@id='back']' in zone NATIVE, index: 0, click count: 1
+Tue Apr 03 23:12:27 EDT 2018 [execute] /Users/poorni/appiumstudio-reports/test1
