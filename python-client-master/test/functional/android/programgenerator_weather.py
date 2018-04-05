@@ -1,5 +1,4 @@
 #!/usr/bin/python
-# -*- coding: utf-8 -*-
 import re
 import collections
 #import outputprogram 
@@ -7,10 +6,10 @@ import os
 import subprocess
 #import popen
 
-fileNameIntent = "intent.conf"
-fileNameMappings = "mappings.conf"
-outputFile = "outputprogram.py"
-templateFile = "automation_template.txt"
+fileNameIntent = "intent_weather.conf"
+fileNameMappings = "mappings_weather.conf"
+outputFile = "outputprogram_weather.py"
+templateFile = "automation_template_weather.txt"
 automationline = ''
 mappings = collections.defaultdict(list)
 intents = [] 
@@ -80,4 +79,4 @@ if __name__== "__main__":
                             fOutput.write("\n")
             
     #p = subprocess.Popen(["python", "outputprogram.py"], stdout=subprocess.PIPE)
-    subprocess.Popen(["python", "outputprogram.py"])
+    subprocess.Popen(["python", "outputprogram_weather.py"])

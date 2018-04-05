@@ -22,15 +22,15 @@ class MultiActionTests(unittest.TestCase):
         self.dc['reportFormat'] = self.reportFormat
         self.dc['testName'] = self.testName
         self.dc['udid'] = '03ab1c13003c0097'
-        self.dc['appPackage'] = 'com.cnn.mobile.android.phone'
-        self.dc['appActivity'] = '.features.splash.SplashActivity'
+        self.dc['appPackage'] = 'com.weather.Weather'
+        self.dc['appActivity'] = '.app.SplashScreenActivity'
         self.dc['platformName'] = 'android'
         self.driver = webdriver.Remote('http://localhost:4723/wd/hub',self.dc)
 
     def testUntitled(self):
-		self.driver.find_element_by_xpath("xpath=(//*[@class=\'android.widget.LinearLayout\' and ./parent::*[@id=\'tabs\']]/*/*[@id=\'verticalImageView\' and @width>0])[2]").click()
-		self.driver.find_element_by_xpath("xpath=//*[@text=\'Watch Now\']").click()
-		self.driver.find_element_by_xpath("xpath=//*[@id=\'back\']").click()
+		self.driver.find_element_by_xpath("xpath=//*[@class=\'android.widget.ImageButton\']").click()
+		self.driver.find_element_by_xpath("xpath=//*[@text=\'Settings\']").click()
+		self.driver.find_element_by_xpath("xpath=//*[@text=\'About this app\']").click()
 		self.driver.press_keycode(3) # home
 
     def tearDown(self):
