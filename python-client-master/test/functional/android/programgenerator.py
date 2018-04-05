@@ -1,25 +1,39 @@
 #!/usr/bin/python
 import re
+import collections
 
 fileNameIntent = "intent.conf"
 fileNameMappings = "mappings.conf"
 outputFile = "outputprogram.py"
 templateFile = "automation_template.txt"
 automationline = ''
-mappings = {}
-intents = {}
+mappings = collections.defaultdict(list)
+intents = [] 
 
 def digestIntents (): 
     with open(fileNameIntent, 'r') as fIntent:
-        intents = fIntent.readlines()
-#        print intents
+        for intentline in fIntent.readlines():
+            intentline.rstrip()
+            global intents
+            intents.append(intentline)
+            #print intentline
     return 0 
 
 
 def digestMappings (): 
     with open(fileNameMappings,'r') as fMapping:
-        mappings = fMapping.readlines()
-#        print mappings
+        for mappingline in fMapping.readlines():
+            mappingline.rstrip()
+            mapKeyValue = mappingline.split("=",1)
+            key = mapKeyValue[0].lstrip()
+            key = mapKeyValue[0].rstrip()
+            value = mapKeyValue[1].lstrip()
+            value = mapKeyValue[1].rstrip()
+            mappings[key].append(value)
+            print key,  mappings[key]
+            #mappings.append(mappingline)
+            #print mappingline 
+    exit (1)
     return 0
 
 
@@ -34,18 +48,29 @@ if __name__== "__main__":
     if (mappingsRet != 0):
         print ("Error reading Intents file\n")
 
+    # Opening the ouputfile to write the code
     fOutput = open (outputFile, "w")
-        #for outputline in fOutput.readlines():
-    print "Writing to the OutputFile"
+    print "# Creating outputprogram.py file for generating the code\n"
 
-
+    # Take the template and use it.
     with open(templateFile, "r") as fTemplate:
         for templateline in fTemplate.readlines():
             fOutput.write(templateline)
-            #if "def TestUntitled (self):" in templateline:
-                #for line in
             if re.search("def testUntitled", templateline, re.IGNORECASE):
-                print "Coming inside poo"
-                fOutput.write("\t\t")
                 automationline = "print (\"Testing \")\n"
-                fOutput.write(automationline)
+                #print intents
+                print "Intents are :"
+                for intentline_t in intents:
+                    print intentline_t
+                    intentWordArray = []
+                    intentWordArray = intentline_t.split("->")
+                    
+                    for wordIntent in intentWordArray:
+                        wordIntent = wordIntent.rstrip()
+                        wordIntent = wordIntent.lstrip()
+                        print wordIntent
+                        if wordIntent in mappings:
+                            print "Yes for the intent the key in dict exists\n"
+                            fOutput.write("\t\t")
+                            fOutput.write(automationline)
+                    
