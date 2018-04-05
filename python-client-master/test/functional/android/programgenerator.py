@@ -81,4 +81,3 @@ if __name__== "__main__":
             
     #p = subprocess.Popen(["python", "outputprogram.py"], stdout=subprocess.PIPE)
     subprocess.Popen(["python", "outputprogram.py"])
-    #subprocess.Popen(["python", "outputprogram.py"], shell=True)
