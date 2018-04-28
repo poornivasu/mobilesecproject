@@ -30,6 +30,10 @@ class MultiActionTests(unittest.TestCase):
     def testUntitled(self):
 		self.driver.find_element_by_xpath("xpath=(//*[@class=\'android.widget.LinearLayout\' and ./parent::*[@id=\'tabs\']]/*/*[@id=\'verticalImageView\' and @width>0])[2]").click()
 		self.driver.find_element_by_xpath("xpath=//*[@text=\'Watch Now\']").click()
+		self.driver.find_element_by_xpath("xpath=//*[@id=\'settings\']").click()
+		self.driver.find_element_by_xpath("xpath=//*[@text=\'Your Edition\']").click()
+		self.driver.find_element_by_xpath("xpath=//*[@id=\'radio_us\']").click()
+		self.driver.find_element_by_xpath("xpath=//*[@text=\'Save\']").click()
 		self.driver.find_element_by_xpath("xpath=//*[@id=\'back\']").click()
 		self.driver.press_keycode(3) # home
 
