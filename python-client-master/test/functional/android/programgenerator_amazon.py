@@ -15,6 +15,17 @@ automationline = ''
 mappings = collections.defaultdict(list)
 intents = [] 
 
+def addObjectsToProgram (wordIntent_t):
+    #print "Yes for the intent the key in dict exists\n"
+    automationline = str(mappings[wordIntent_t])
+    automationline = automationline.lstrip('[\' "')
+    automationline = automationline.rstrip('\"\']')
+    fOutput.write("\t\t")
+    fOutput.write(automationline)
+    fOutput.write("\n")
+
+
+
 def digestIntents (): 
     with open(fileNameIntent, 'r') as fIntent:
         for intentline in fIntent.readlines():
@@ -50,7 +61,7 @@ if __name__== "__main__":
     mappingsRet = digestMappings()
     if (mappingsRet != 0):
         print ("Error reading Intents file\n")
-
+    print mappings
     # Opening the ouputfile to write the code
     fOutput = open (outputFile, "w")
     print "# Creating outputprogram.py file for generating the code\n"
@@ -60,8 +71,7 @@ if __name__== "__main__":
         for templateline in fTemplate.readlines():
             fOutput.write(templateline)
             if re.search("def testUntitled", templateline, re.IGNORECASE):
-                #print intents
-                print "# Intents are :"
+                print "# Overall Intent is:"
                 for intentline_t in intents:
                     print intentline_t
                     intentWordArray = []
@@ -69,15 +79,44 @@ if __name__== "__main__":
                     for wordIntent in intentWordArray:
                         wordIntent = wordIntent.rstrip()
                         wordIntent = wordIntent.lstrip()
-                        print wordIntent
-                        if wordIntent in mappings:
-                            #print "Yes for the intent the key in dict exists\n"
-                            automationline = str(mappings[wordIntent])
-                            automationline = automationline.lstrip('[\' "')
-                            automationline = automationline.rstrip('\"\']')
-                            fOutput.write("\t\t")
-                            fOutput.write(automationline)
-                            fOutput.write("\n")
+                        propertiesArray = []
+                        propertiesArray = wordIntent.split(".")
+                        #print "\n#Properties:"
+                        if (len(propertiesArray) == 1):
+                            print propertiesArray
+                            if wordIntent in mappings:
+                                addObjectsToProgram (wordIntent)
+                                continue 
+                        if (len(propertiesArray) >= 2):
+                            for id_t, property_t in enumerate(propertiesArray):
+                                property_t = property_t.rstrip()
+                                property_t = property_t.lstrip()
+                                print id_t, property_t
+                                if (id_t == 0):
+                                    print "poorni: %s" % property_t
+                                    if property_t in mappings:
+                                        print "Eureka found: %s" % property_t
+                                        addObjectsToProgram (property_t)
+                                elif (id_t >= 1):
+                                    key_values = []
+                                    key_values = property_t.split(",")
+                                    for key_val_t in key_values:
+                                        key_val = []
+                                        key_val = key_val_t.split(":")
+                                        #print key_val
+
+                                        key_t = key_val[0]
+                                        key = key_t.replace("{", "")
+                                        key = key.replace("}", "")
+                                        if len(key_val) == 2:
+                                            value_t = key_val[1]
+                                            value = value_t.replace("}", "")
+                                            value = value.replace("{", "")
+                                            print "\t Key: %s, value: %s" %(key, value)
+                                        #print key
+                                        else:
+                                            print "No key exists for the key: %s" %(key) 
+                                            key = 0
+
             
-    #p = subprocess.Popen(["python", "outputprogram.py"], stdout=subprocess.PIPE)
-    subprocess.Popen(["python", "outputprogram.py"])
+    #subprocess.Popen(["python", "outputprogram.py"])
